@@ -1,0 +1,26 @@
+.salaryBar {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: left;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+.inssBar {
+  height: 30px;
+  display: block;
+  border: transparent;
+  background-color: #e67e22;
+}
+.irpfBar {
+  height: 30px;
+  display: block;
+  border: transparent;
+  background-color: #c0392b;
+}
+.netSalaryBar {
+  height: 30px;
+  display: block;
+  border: transparent;
+  background-color: #16a085;
+}
