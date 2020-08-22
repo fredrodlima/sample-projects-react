@@ -1,0 +1,29 @@
+.installmentContainer {
+  min-width: 250px;
+  min-height: 150px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-items: center;
+}
+.installmentNumber {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.positiveNumber {
+  color: green;
+  padding: 5px;
+}
+.negativeNumber {
+  color: red;
+}
+.positiveInterest {
+  color: lightblue;
+}
+.negativeInterest {
+  color: lightcoral;
+}
